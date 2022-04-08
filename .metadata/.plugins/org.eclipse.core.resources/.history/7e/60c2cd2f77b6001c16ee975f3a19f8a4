@@ -1,0 +1,38 @@
+package ar.edu.unlp.info.oo2.Ejercicio1Practica2;
+
+public abstract class Atomic implements Topografia {
+
+	private double proporcion;
+	
+	public  void setProporcion(double n) {
+		proporcion=n;
+	}
+	
+	public double getProporcionAgua() {
+		return proporcion;
+	}
+	
+	public double getProporcionTierra() {
+		return 1-this.getProporcionAgua();
+	}
+	
+	
+	
+ @Override
+	public boolean equals (Object t1) {
+	if (t1!=null) {
+		Atomica t2=(TopografiaMixta) t1;
+		return t2.compararTopog
+	}
+	else
+		return false;
+
+ }
+
+	public boolean compararTopografiaAtomica (Topografia t1) {
+		return this.getProporcionAgua() == t1.getProporcionAgua();
+	
+	}
+	
+	
+}

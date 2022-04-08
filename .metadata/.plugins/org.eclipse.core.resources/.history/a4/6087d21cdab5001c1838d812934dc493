@@ -1,0 +1,14 @@
+package ar.edu.unlp.info.oo2.Ejercicio1Practica2;
+
+public abstract class Atomic implements Topografia {
+
+	private double proporcion;
+	
+	public  void setProporcion(int n) {
+		proporcion=n;
+	}
+	
+	public double getProporcion() {
+		
+	}
+}

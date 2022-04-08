@@ -1,0 +1,10 @@
+package ar.edu.unlp.info.oo2.Ejercicio1Practica2;
+
+public class Tierra extends Atomic {
+	
+	
+	public Tierra() {
+		setProporcion(0);
+	}
+
+}
